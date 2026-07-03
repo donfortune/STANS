@@ -55,7 +55,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/stans-app:latestname: CI
+          tags: ${{ secrets.DOCKER_USERNAME }}/stans-app:latestname
 
 on:
   push:
