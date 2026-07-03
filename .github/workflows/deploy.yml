@@ -24,4 +24,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/stan-app:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/stan-app:1.0
